@@ -3,23 +3,24 @@
 
 <head>
     <title>Skin Lesion Classifier</title>
+    <link href="style/style.css" rel="stylesheet" />
     <link href="style/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 
 <body>
     <main>
-    	<div class="jumbotron text-center">
-        	<h1>Skin Lesion Classifier</h1>
+    	<div class="jumbotron text-center" style="background-image: url(images/bg-img-jumbutron.png); background-size: 100%;">
+        	<h1 class="font-weight-bold" style="color: #ffffff; background-color: #5e8366;">Skin Lesion Classifier</h1>
     	</div>
 
     	<div class="container">
     		<div class="row">
     			<div class="col-12">
     			  <h2 class="ml-3" style="text-align: center">Project Information</h2>
-            <p style="text-align: center">A classifier written in native Keras and converted to TensorFlow.js that can be used to classify seven different types of skin lesions.
-              <br>This model uses the MobileNet architecture and was retrained on the HAM10000 dataset which contains approximately 10,000 documented images.
-              <br>The model obtains an accuracy of approximately 80%, with a top-3 accuracy of approximately 94%.</p>
+            <p style="text-align: center">A classifier written in local Keras and changed over to TensorFlow.js that can be utilized to group seven unique sorts of skin sores.
+              <br>This model uses the MobileNet engineering and was retrained on the HAM10000 dataset which contains around 10,000 archived images.
+              <br>The model gets an exactness of around 80%, with a best 3 precision of roughly 94%.</p>
 
           </div>
     		</div>
@@ -51,7 +52,7 @@
 		  </div>
 		</div>
                 <div class="col-1">
-                    <button id="predict-button" class="btn btn-primary float-right">Predict</button>
+                    <button id="predict-button" class="btn btn-warning float-right">Predict</button>
                 </div>
             </div>
             <hr>
@@ -116,13 +117,13 @@
     <div class="container text-center text-md-left">
 
       <div class="text-center py-3">The information on this page can be found
-        <a href="#"><u> here</u>.</a>
+        <a href="http://localhost/skin-web/skin-cancer-info.html"><u> here</u>.</a>
     </div>
 
     </div>
 
     <div class="footer-copyright text-center py-3">
-      <a href="#"><strong>Home</strong></a>
+      <a href="http://localhost/skin-web/"><strong>Home</strong></a>
     </div>
 
   </footer>
